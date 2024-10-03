@@ -14,7 +14,9 @@ const swiper = new Swiper('.swiper', {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
   },
-
+  mousewheel: {
+    invert: true,
+  },
   // And if we need scrollbar
   scrollbar: {
     el: '.swiper-scrollbar',
@@ -32,11 +34,14 @@ const swiper = new Swiper('.swiper', {
 
 //Flip: The slides flip as if they are flipping cards in 3D space.
 
-//Creative: This effect allows you to define custom transitions by combining various animations like scaling, translating, and rotating.
+//Creative: This effect allows you to define custom transitions by combining various animations like scaling,
+// translating, and rotating.
 
 //Cards: Mimics card - like sliding, where slides stack and push over each other.
+//Multiple: This effect allows you to combine multiple effects into one.
 
 //Zoom: It allows zooming into slides when they are active, with zoom -in and zoom - out transitions.
+//Note: Not all effects are available for all directions and loops.
 
 //These effects can be customized further by adding parameters and using different configuration options.
 // You can choose the one that fits the design and experience you want to create.
